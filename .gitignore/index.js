@@ -3,6 +3,7 @@ const bot = new Discord.Client()
 const YTDL = require('ytdl-core')
 const config = require("./config.json")
 const prefix = "Yakama"
+const prefix = "Y"
 const fs = require("fs");
 
 
