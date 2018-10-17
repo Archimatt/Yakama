@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 const YTDL = require('ytdl-core')
-const prefix = "Yakama"
+const prefix = ('Y')
 const fs = require("fs");
 
 
@@ -167,8 +167,8 @@ if(message.content.startsWith ('Y c ki') ){
     
     var servers = {};
     
-    client.on("message", function(message) {
-        if (message.author.equals(client.user)) return;
+    bot.on("message", function(message) {
+        if (message.author.equals(bot.user)) return;
         
         if (!message.content.startsWith(prefix)) return;
         
